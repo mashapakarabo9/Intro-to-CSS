@@ -28,11 +28,15 @@ body {
     display: flex;
     margin-right: 55%;
     padding-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 .logo img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: #45a049 solid;
 
 }
 
@@ -150,15 +154,19 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: #8176e8;
+    background-color:black;
     color: white;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+    border: none;
+    border-radius: 20px;
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
 }
 
 /* Style the container/contact section */
@@ -174,6 +182,12 @@ input[type=submit]:hover {
     width: 50%;
     margin-top: 6px;
     padding: 20px;
+}
+.column h2{
+    background-color: #000;
+    color: #ccc;
+    border-radius: 2px;
+    margin-bottom: auto;
 }
 
 /* Clear floats after the columns */
@@ -193,6 +207,9 @@ input[type=submit]:hover {
     }
 }
 
+@media only screen and (Max-width: 768px) {
+    
+}
 /* =====================================================================footer styling===================================*/
 
 
